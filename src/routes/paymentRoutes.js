@@ -4,7 +4,7 @@ import userAuth from "../middleware/userAuth.js";
 
 const paymentRouter=express.Router();
 
-paymentRouter.post("/payment-order",userAuth,paymentController);
-paymentRouter.post("/payment-verify",userAuth,verifyPayment);
+paymentRouter.post("/payment-order",paymentController);
+paymentRouter.post("/payment-verify",verifyPayment);
 
 export default paymentRouter;

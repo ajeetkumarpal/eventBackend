@@ -1,6 +1,6 @@
 import express from "express";
 import { paymentController, verifyPayment } from "../controller/rozarpayController.js";
-import userAuth from "../middleware/userAuth.js";
+
 
 const paymentRouter=express.Router();
 

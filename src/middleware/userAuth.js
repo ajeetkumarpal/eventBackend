@@ -4,6 +4,7 @@ import { privateKey } from "../config/serverConfig.js";
 const userAuth = (req, res, next) => {
   try {
     const token = req.cookies.token;
+    console.log(token);
 
     if (!token) {
       return res.status(401).json({ message: "Not logged in" });

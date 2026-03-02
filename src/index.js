@@ -14,9 +14,6 @@ app.use(cors({
     // Production aur development dono allow
     const allowedOrigins = [
       'https://event-frontend-black.vercel.app',
-      'http://localhost:5173',
-      'http://localhost:3000',
-      'https://eventify-backend-i4va.onrender.com'
     ];
     
     // Allow requests with no origin (like mobile apps or curl requests)

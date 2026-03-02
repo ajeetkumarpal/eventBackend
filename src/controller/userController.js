@@ -62,6 +62,9 @@ export const login = async (req, res) => {
       maxAge: 90 * 24 * 60 * 60 * 1000,
       secure: true,
       sameSite: "None",
+      partitioned: true,  
+  domain: ".onrender.com"
+
     });
 
     res.status(200).json({

@@ -13,7 +13,7 @@ app.use(cors({
   origin: function(origin, callback) {
     // Production aur development dono allow
     const allowedOrigins = [
-      'https://eventify-myfrontend.vercel.app',
+      'https://event-frontend-black.vercel.app',
       'http://localhost:5173',
       'http://localhost:3000',
       'https://eventify-backend-i4va.onrender.com'
